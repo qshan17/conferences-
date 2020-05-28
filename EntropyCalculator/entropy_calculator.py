@@ -3,4 +3,8 @@ import math
 
 def entropy_x(*probs):
     _all_sum = 0.0
-    fi
+    final_sum = 0.0
+    normal = False
+
+    for i in probs:
+    
