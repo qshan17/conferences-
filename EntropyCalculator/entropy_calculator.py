@@ -11,4 +11,6 @@ def entropy_x(*probs):
             if isinstance(j, tuple):
                 normal = False
                 for k in j:
-                    
+                    _all_sum += k
+                for k in j:
+                    if k is n
