@@ -7,4 +7,6 @@ def entropy_x(*probs):
     normal = False
 
     for i in probs:
-    
+        for j in i:
+            if isinstance(j, tuple):
+   
