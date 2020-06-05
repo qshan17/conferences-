@@ -13,4 +13,5 @@ def entropy_x(*probs):
                 for k in j:
                     _all_sum += k
                 for k in j:
-                    if k is n
+                    if k is not 0:
+                        final_sum += - 1 * (k / _all_sum) * mat
