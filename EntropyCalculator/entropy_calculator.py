@@ -16,4 +16,8 @@ def entropy_x(*probs):
                     if k is not 0:
                         final_sum += - 1 * (k / _all_sum) * math.log(k / _all_sum, 2)
             else:
-                _all_sum 
+                _all_sum += j
+                normal = True
+
+    if normal:
+        for i in
