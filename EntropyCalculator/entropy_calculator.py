@@ -20,4 +20,7 @@ def entropy_x(*probs):
                 normal = True
 
     if normal:
-        for i in
+        for i in probs:
+            for j in i:
+                if j is not 0:
+            
