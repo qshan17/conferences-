@@ -23,4 +23,4 @@ def entropy_x(*probs):
         for i in probs:
             for j in i:
                 if j is not 0:
-            
+                    final_sum += - 1 * (j/_all_sum) * math.log(j/_all_sum, 2)
