@@ -30,4 +30,5 @@ def entropy_x(*probs):
 print(entropy_x((1, 2)))
 
 
-def
+def entropy_conditional_mean(parent_probs, *child_probs):
+
