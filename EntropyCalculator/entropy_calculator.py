@@ -32,3 +32,8 @@ print(entropy_x((1, 2)))
 
 def entropy_conditional_mean(parent_probs, *child_probs):
 
+    parent_sum = 0.0
+    final_sum = 0.0
+    normal = False
+
+    for i in p
