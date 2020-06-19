@@ -36,4 +36,7 @@ def entropy_conditional_mean(parent_probs, *child_probs):
     final_sum = 0.0
     normal = False
 
-    for i in p
+    for i in parent_probs:
+        parent_sum += i
+
+    m_chi
