@@ -42,4 +42,6 @@ def entropy_conditional_mean(parent_probs, *child_probs):
     m_children = []
 
     if isinstance(child_probs[0][0], tuple):
-  
+        for j in child_probs:
+            for i in j:
+       
