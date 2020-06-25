@@ -55,4 +55,6 @@ def entropy_conditional_mean(parent_probs, *child_probs):
         for j in i:
             if isinstance(j, tuple):
                 normal = False
-                for k 
+                for k in j:
+                    child_sum += k
+                final_s
