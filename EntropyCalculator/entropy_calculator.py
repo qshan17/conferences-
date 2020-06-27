@@ -61,4 +61,7 @@ def entropy_conditional_mean(parent_probs, *child_probs):
             else:
                 normal = True
                 child_sum += j
-        if normal
+        if normal:
+            final_sum += child_sum / parent_sum * entropy_x(i)
+
+    retu
