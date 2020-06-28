@@ -69,4 +69,5 @@ def entropy_conditional_mean(parent_probs, *child_probs):
 # print(entropy_conditional_mean((3, 5), ((2, 2), (1, 3))))
 
 
-def
+def information_gain(parent_probs, *child_probs):
+    n
