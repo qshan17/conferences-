@@ -70,4 +70,7 @@ def entropy_conditional_mean(parent_probs, *child_probs):
 
 
 def information_gain(parent_probs, *child_probs):
-    n
+    normal = True
+    m_children = []
+    for i in child_probs:
+    
