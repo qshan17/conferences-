@@ -73,4 +73,6 @@ def information_gain(parent_probs, *child_probs):
     normal = True
     m_children = []
     for i in child_probs:
-    
+        if isinstance(i[0], tuple):
+            normal = False
+   
