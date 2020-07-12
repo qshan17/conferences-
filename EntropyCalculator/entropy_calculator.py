@@ -75,4 +75,6 @@ def information_gain(parent_probs, *child_probs):
     for i in child_probs:
         if isinstance(i[0], tuple):
             normal = False
-   
+            for j in i:
+                m_children.append(j)
+  
