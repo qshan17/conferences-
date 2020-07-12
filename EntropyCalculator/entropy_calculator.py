@@ -77,4 +77,5 @@ def information_gain(parent_probs, *child_probs):
             normal = False
             for j in i:
                 m_children.append(j)
-  
+    if normal:
+        return entropy_x(parent_probs) - entropy_conditional_mean(pare
