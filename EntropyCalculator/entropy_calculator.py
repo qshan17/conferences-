@@ -80,4 +80,6 @@ def information_gain(parent_probs, *child_probs):
     if normal:
         return entropy_x(parent_probs) - entropy_conditional_mean(parent_probs, child_probs)
     else:
-        return entropy_x(parent_probs) - ent
+        return entropy_x(parent_probs) - entropy_conditional_mean(parent_probs, tuple(m_children))
+
+print(information_gain(
