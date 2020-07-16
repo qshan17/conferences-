@@ -82,4 +82,4 @@ def information_gain(parent_probs, *child_probs):
     else:
         return entropy_x(parent_probs) - entropy_conditional_mean(parent_probs, tuple(m_children))
 
-print(information_gain(
+print(information_gain((15, 200), (10, 80), (5, 120)))
