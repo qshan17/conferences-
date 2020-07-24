@@ -78,3 +78,25 @@ def get_root(some_data):
     classify_attributes()
     output_partitions = []
     for i in get_output_labels(some_data):
+        number = 0
+        for j in get_output_values(some_data):
+            if i is j:
+                number += 1
+        output_partitions.append(number)
+
+    ig_max = 0
+    for item in m_attributes_with_partitions:
+        current_ig = entropy_calculator.information_gain(tuple(output_partitions), tuple(m_attributes_with_partitions[item]))
+        print(current_ig)
+        if ig_max <= current_ig:
+            ig_max = current_ig
+            current_root = item
+
+    attributes.remove(current_root)
+    print(attributes)
+    print(current_root, "ROOT WITH", m_attributes_with_partitions[current_root])
+
+get_root(my_data)
+#
+# def build_tree(current_root, ):
+#
