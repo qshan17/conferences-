@@ -1,2 +1,3 @@
 # This is the CMakeCache file.
-# For build i
+# For build in directory: c:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug
+#
