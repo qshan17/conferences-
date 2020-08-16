@@ -15,4 +15,6 @@
 ########################
 
 //Path to a program.
-CMA
+CMAKE_AR:FILEPATH=C:/MinGW/bin/ar.exe
+
+//Choose the type of build, options a
