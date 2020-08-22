@@ -19,4 +19,7 @@ CMAKE_AR:FILEPATH=C:/MinGW/bin/ar.exe
 
 //Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
-CMAKE_BUILD_TYPE:STRING=
+CMAKE_BUILD_TYPE:STRING=Debug
+
+//The CodeBlocks executable
+CMAKE_CODEBLOCKS_EXECUTA
