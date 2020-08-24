@@ -24,4 +24,5 @@ CMAKE_BUILD_TYPE:STRING=Debug
 //The CodeBlocks executable
 CMAKE_CODEBLOCKS_EXECUTABLE:FILEPATH=CMAKE_CODEBLOCKS_EXECUTABLE-NOTFOUND
 
-//Additi
+//Additional command line arguments when CodeBlocks invokes make.
+// Ente
