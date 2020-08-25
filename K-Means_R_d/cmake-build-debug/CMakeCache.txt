@@ -34,4 +34,5 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 //CXX compiler
 CMAKE_CXX_COMPILER:FILEPATH=C:/MinGW/bin/g++.exe
 
-//Flags use
+//Flags used by the compiler during all build types.
+CMAKE_CXX_FLAGS:STRI
