@@ -31,4 +31,7 @@ CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX co
+//CXX compiler
+CMAKE_CXX_COMPILER:FILEPATH=C:/MinGW/bin/g++.exe
+
+//Flags use
