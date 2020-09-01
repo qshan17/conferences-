@@ -35,4 +35,7 @@ CMAKE_COLOR_MAKEFILE:BOOL=ON
 CMAKE_CXX_COMPILER:FILEPATH=C:/MinGW/bin/g++.exe
 
 //Flags used by the compiler during all build types.
-CMAKE_CXX_FLAGS:STRI
+CMAKE_CXX_FLAGS:STRING=
+
+//Flags used by the compiler during debug builds.
+CMA
