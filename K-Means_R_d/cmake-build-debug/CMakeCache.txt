@@ -38,4 +38,6 @@ CMAKE_CXX_COMPILER:FILEPATH=C:/MinGW/bin/g++.exe
 CMAKE_CXX_FLAGS:STRING=
 
 //Flags used by the compiler during debug builds.
-CMA
+CMAKE_CXX_FLAGS_DEBUG:STRING=-g
+
+//Flags used by the compiler durin
