@@ -44,4 +44,7 @@ CMAKE_CXX_FLAGS_DEBUG:STRING=-g
 // size.
 CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
-//Flags used by the compiler dur
+//Flags used by the compiler during release builds.
+CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
+
+//Fl
