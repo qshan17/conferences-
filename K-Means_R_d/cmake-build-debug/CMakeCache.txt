@@ -47,4 +47,5 @@ CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 //Flags used by the compiler during release builds.
 CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
-//Fl
+//Flags used by the compiler during release builds with debug info.
+CMAKE_CX
