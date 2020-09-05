@@ -57,4 +57,7 @@ CMAKE_CXX_STANDARD_LIBRARIES:STRING=-lkernel32 -luser32 -lgdi32 -lwinspool -lshe
 CMAKE_C_COMPILER:FILEPATH=C:/MinGW/bin/gcc.exe
 
 //Flags used by the compiler during all build types.
-CMAKE_C_
+CMAKE_C_FLAGS:STRING=
+
+//Flags used by the compiler during debug builds.
+CM
