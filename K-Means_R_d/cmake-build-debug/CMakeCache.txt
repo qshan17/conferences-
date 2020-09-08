@@ -62,4 +62,6 @@ CMAKE_C_FLAGS:STRING=
 //Flags used by the compiler during debug builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
 
-//Flags used by the compiler du
+//Flags used by the compiler during release builds for minimum
+// size.
+CMAKE_C_FLAGS_MINSIZEREL
