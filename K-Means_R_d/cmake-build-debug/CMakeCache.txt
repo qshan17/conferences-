@@ -60,4 +60,6 @@ CMAKE_C_COMPILER:FILEPATH=C:/MinGW/bin/gcc.exe
 CMAKE_C_FLAGS:STRING=
 
 //Flags used by the compiler during debug builds.
-CM
+CMAKE_C_FLAGS_DEBUG:STRING=-g
+
+//Flags used by the compiler du
