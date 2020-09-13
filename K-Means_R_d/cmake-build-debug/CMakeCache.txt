@@ -69,4 +69,5 @@ CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 //Flags used by the compiler during release builds.
 CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
-//Flags used by th
+//Flags used by the compiler during release builds with debug info.
+CMAKE_C_FLAGS_
