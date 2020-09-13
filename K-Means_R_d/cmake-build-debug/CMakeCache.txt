@@ -72,4 +72,5 @@ CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the compiler during release builds with debug info.
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//Libraries linked by default wi
+//Libraries linked by default with all C applications.
+CMAKE_C_STANDARD_LIBRARIES:STRI
