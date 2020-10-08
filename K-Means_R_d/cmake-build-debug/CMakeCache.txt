@@ -85,4 +85,6 @@ CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
 CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
 
 //Flags used by the linker during release builds.
-CMAKE_EXE_LINKER_FLAGS_RELEA
+CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
+
+//Flags used by the linker during Release with Deb
