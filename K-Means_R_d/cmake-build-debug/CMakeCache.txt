@@ -94,4 +94,7 @@ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program 
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/K_Means_R_d
+
+//Path to a program.
+CMAKE_LINKER:FI
