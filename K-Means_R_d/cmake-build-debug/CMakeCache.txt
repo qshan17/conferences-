@@ -97,4 +97,6 @@ CMAKE_GNUtoMS:BOOL=OFF
 CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/K_Means_R_d
 
 //Path to a program.
-CMAKE_LINKER:FI
+CMAKE_LINKER:FILEPATH=C:/MinGW/bin/ld.exe
+
+//Path to a program
