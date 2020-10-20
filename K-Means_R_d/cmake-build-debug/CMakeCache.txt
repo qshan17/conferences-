@@ -99,4 +99,7 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/K_Means_R_d
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/MinGW/bin/ld.exe
 
-//Path to a program
+//Path to a program.
+CMAKE_MAKE_PROGRAM:FILEPATH=C:/MinGW/bin/mingw32-make.exe
+
+/
