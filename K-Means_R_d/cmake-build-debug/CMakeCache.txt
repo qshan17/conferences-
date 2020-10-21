@@ -103,3 +103,6 @@ CMAKE_LINKER:FILEPATH=C:/MinGW/bin/ld.exe
 CMAKE_MAKE_PROGRAM:FILEPATH=C:/MinGW/bin/mingw32-make.exe
 
 //Flags used by the linker during the creation of modules.
+CMAKE_MODULE_LINKER_FLAGS:STRING=
+
+//Flags used by the li
