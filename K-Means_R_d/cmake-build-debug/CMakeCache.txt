@@ -108,4 +108,5 @@ CMAKE_MODULE_LINKER_FLAGS:STRING=
 //Flags used by the linker during debug builds.
 CMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=
 
-/
+//Flags used by the linker during release minsize builds.
+CMAKE_MODULE_LIN
