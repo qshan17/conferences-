@@ -111,4 +111,5 @@ CMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=
 //Flags used by the linker during release minsize builds.
 CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL:STRING=
 
-//Flags used by the linker during
+//Flags used by the linker during release builds.
+CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING
