@@ -117,4 +117,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Path to a
+//Path to a program.
+CMAKE_NM:FILEPATH=C:/MinGW/bin/nm.exe
+
+//Path to a pr
