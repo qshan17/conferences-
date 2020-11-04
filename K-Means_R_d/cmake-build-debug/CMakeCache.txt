@@ -126,4 +126,7 @@ CMAKE_OBJCOPY:FILEPATH=C:/MinGW/bin/objcopy.exe
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=C:/MinGW/bin/objdump.exe
 
-//Value Compute
+//Value Computed by CMake
+CMAKE_PROJECT_NAME:STATIC=K_Means_R_d
+
+//Path to a pr
