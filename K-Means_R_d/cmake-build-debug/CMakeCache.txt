@@ -123,4 +123,7 @@ CMAKE_NM:FILEPATH=C:/MinGW/bin/nm.exe
 //Path to a program.
 CMAKE_OBJCOPY:FILEPATH=C:/MinGW/bin/objcopy.exe
 
-//Path
+//Path to a program.
+CMAKE_OBJDUMP:FILEPATH=C:/MinGW/bin/objdump.exe
+
+//Value Compute
