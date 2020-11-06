@@ -129,4 +129,8 @@ CMAKE_OBJDUMP:FILEPATH=C:/MinGW/bin/objdump.exe
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=K_Means_R_d
 
-//Path to a pr
+//Path to a program.
+CMAKE_RANLIB:FILEPATH=C:/MinGW/bin/ranlib.exe
+
+//RC compiler
+C
