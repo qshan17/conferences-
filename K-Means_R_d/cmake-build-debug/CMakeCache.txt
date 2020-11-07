@@ -138,4 +138,7 @@ CMAKE_RC_COMPILER:FILEPATH=C:/MinGW/bin/windres.exe
 //Flags for Windows Resource Compiler.
 CMAKE_RC_FLAGS:STRING=' '
 
-//Path to a
+//Path to a program.
+CMAKE_SH:FILEPATH=CMAKE_SH-NOTFOUND
+
+//Flags used by the
