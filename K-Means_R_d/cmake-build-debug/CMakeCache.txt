@@ -145,3 +145,6 @@ CMAKE_SH:FILEPATH=CMAKE_SH-NOTFOUND
 CMAKE_SHARED_LINKER_FLAGS:STRING=
 
 //Flags used by the linker during debug builds.
+CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=
+
+//Flags used by the linker during r
