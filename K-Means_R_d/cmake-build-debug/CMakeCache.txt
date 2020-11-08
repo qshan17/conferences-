@@ -147,4 +147,7 @@ CMAKE_SHARED_LINKER_FLAGS:STRING=
 //Flags used by the linker during debug builds.
 CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=
 
-//Flags used by the linker during r
+//Flags used by the linker during release minsize builds.
+CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=
+
+//Flags 
