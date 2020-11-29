@@ -156,4 +156,6 @@ CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//If set, runtime paths are not added when installing s
+//If set, runtime paths are not added when installing shared libraries,
+// but are added when building.
+CMAKE_SKIP_INSTALL_RPATH:
