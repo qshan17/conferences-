@@ -163,4 +163,5 @@ CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 //If set, runtime paths are not added when using shared libraries.
 CMAKE_SKIP_RPATH:BOOL=NO
 
-//Flags used by the linker duri
+//Flags used by the linker during the creation of static libraries.
+CMAKE_STATIC_LINKER_FLAGS:S
