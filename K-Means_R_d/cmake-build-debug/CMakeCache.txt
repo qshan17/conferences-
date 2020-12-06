@@ -167,4 +167,6 @@ CMAKE_SKIP_RPATH:BOOL=NO
 CMAKE_STATIC_LINKER_FLAGS:STRING=
 
 //Flags used by the linker during debug builds.
-C
+CMAKE_STATIC_LINKER_FLAGS_DEBUG:STRING=
+
+//Flags used by the linker
