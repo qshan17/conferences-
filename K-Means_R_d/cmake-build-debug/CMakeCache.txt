@@ -175,4 +175,5 @@ CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL:STRING=
 //Flags used by the linker during release builds.
 CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 
-//Flags used by the linker dur
+//Flags used by the linker during Release with Debug Info builds.
+CMAKE_STATIC_LINKER_FLAGS_RELWITHD
