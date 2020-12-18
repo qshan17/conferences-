@@ -181,4 +181,5 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=C:/MinGW/bin/strip.exe
 
-//If this value is on, makefiles will be
+//If this value is on, makefiles will be generated without the
+// .SILENT directive, 
