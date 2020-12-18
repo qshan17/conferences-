@@ -182,4 +182,5 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_STRIP:FILEPATH=C:/MinGW/bin/strip.exe
 
 //If this value is on, makefiles will be generated without the
-// .SILENT directive, 
+// .SILENT directive, and all commands will be echoed to the console
+// during the make.  This is us
