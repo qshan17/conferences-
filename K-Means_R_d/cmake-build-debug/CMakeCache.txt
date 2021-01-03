@@ -195,4 +195,7 @@ K_Means_R_d_SOURCE_DIR:STATIC=C:/Users/Marius/Desktop/K-Means_R_d
 
 
 ########################
-# INTERNAL cach
+# INTERNAL cache entries
+########################
+
+//ADVANCED prop
