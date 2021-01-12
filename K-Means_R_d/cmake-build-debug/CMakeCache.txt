@@ -201,4 +201,5 @@ K_Means_R_d_SOURCE_DIR:STATIC=C:/Users/Marius/Desktop/K-Means_R_d
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
-CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/Marius/Desktop/K-Means_R_d/cma
+CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug
+//Major version of cmake used to create the current
