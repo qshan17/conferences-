@@ -204,4 +204,5 @@ CMAKE_AR-ADVANCED:INTERNAL=1
 CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
-//Min
+//Minor version of cmake used to create the current loaded cache
+CMAK
