@@ -206,4 +206,6 @@ CMAKE_CACHEFILE_DIR:INTERNAL=c:/Users/Marius/Desktop/K-Means_R_d/cmake-build-deb
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=6
-//Patch version of cmake u
+//Patch version of cmake used to create the current loaded cache
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
+//ADVA
