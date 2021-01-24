@@ -211,4 +211,6 @@ CMAKE_CACHE_PATCH_VERSION:INTERNAL=3
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
-CMAKE_COMMAND:INTERNAL=C:/Program Files (x86)/JetBrains/CLion 201
+CMAKE_COMMAND:INTERNAL=C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/bin/cmake.exe
+//Path to cpack program executable.
+C
