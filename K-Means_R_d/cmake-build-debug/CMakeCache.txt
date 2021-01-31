@@ -214,4 +214,5 @@ CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 CMAKE_COMMAND:INTERNAL=C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/bin/cmake.exe
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/bin/cpack.exe
-//Path to ctest program executab
+//Path to ctest program executable.
+CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files (x86)/JetBrains/CLio
