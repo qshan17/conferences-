@@ -216,4 +216,6 @@ CMAKE_COMMAND:INTERNAL=C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake
 CMAKE_CPACK_COMMAND:INTERNAL=C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/bin/cpack.exe
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/bin/ctest.exe
-//ADVANCED property for 
+//ADVANCED property for variable: CMAKE_CXX_COMPILER
+CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
+//ADVANCE
