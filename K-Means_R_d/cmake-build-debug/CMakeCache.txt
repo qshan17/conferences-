@@ -263,4 +263,4 @@ CMAKE_EXTRA_GENERATOR_CXX_SYSTEM_DEFINED_MACROS:INTERNAL=__STDC__;1;__STDC_VERSI
 //CXX compiler system include directories
 CMAKE_EXTRA_GENERATOR_CXX_SYSTEM_INCLUDE_DIRS:INTERNAL=c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++;c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32;c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward;c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include;c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include;c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed;c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include
 //C compiler system defined macros
-CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACRO
+CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACROS:INTERNAL=__STDC__;1;__STDC_VERSION__;201112L;__STDC_UT
