@@ -267,4 +267,6 @@ CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACROS:INTERNAL=__STDC__;1;__STDC_VERSION
 //C compiler system include directories
 CMAKE_EXTRA_GENERATOR_C_SYSTEM_INCLUDE_DIRS:INTERNAL=C:\MinGW\include;c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include;c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed;c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=MinG
+CMAKE_GENERATOR:INTERNAL=MinGW Makefiles
+//Name of generator platform.
+CMAKE_GENERATOR_PLATFORM:INTERNAL=
