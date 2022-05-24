@@ -271,4 +271,6 @@ CMAKE_GENERATOR:INTERNAL=MinGW Makefiles
 //Name of generator platform.
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
-CMAKE_GENERATOR_TOOLSET:IN
+CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Source directory with the top level CMakeLists.txt file for this
+// pr
