@@ -273,4 +273,5 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
-// pr
+// project
+CMAKE_HOME_DIRECTORY:INTERNAL=C:/Users/Marius/Desktop/K-Means_R_d
