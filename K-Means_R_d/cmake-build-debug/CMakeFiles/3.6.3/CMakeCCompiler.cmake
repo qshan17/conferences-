@@ -1,2 +1,4 @@
 set(CMAKE_C_COMPILER "C:/MinGW/bin/gcc.exe")
-set(CMA
+set(CMAKE_C_COMPILER_ARG1 "")
+set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE
