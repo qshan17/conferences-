@@ -10,4 +10,5 @@ set(CMAKE_C99_COMPILE_FEATURES "c_restrict;c_variadic_macros")
 set(CMAKE_C11_COMPILE_FEATURES "c_static_assert")
 
 set(CMAKE_C_PLATFORM_ID "MinGW")
-set(CMAKE_
+set(CMAKE_C_SIMULATE_ID "")
+set(CMAKE_C_SIMULATE_VERSION ""
