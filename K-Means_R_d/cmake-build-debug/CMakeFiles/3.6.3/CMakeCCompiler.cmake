@@ -11,4 +11,7 @@ set(CMAKE_C11_COMPILE_FEATURES "c_static_assert")
 
 set(CMAKE_C_PLATFORM_ID "MinGW")
 set(CMAKE_C_SIMULATE_ID "")
-set(CMAKE_C_SIMULATE_VERSION ""
+set(CMAKE_C_SIMULATE_VERSION "")
+
+set(CMAKE_AR "C:/MinGW/bin/ar.exe")
+set(CMAKE_RANLIB "C:/MinGW/bin/r
