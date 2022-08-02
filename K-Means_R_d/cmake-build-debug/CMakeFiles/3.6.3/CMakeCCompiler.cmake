@@ -14,4 +14,6 @@ set(CMAKE_C_SIMULATE_ID "")
 set(CMAKE_C_SIMULATE_VERSION "")
 
 set(CMAKE_AR "C:/MinGW/bin/ar.exe")
-set(CMAKE_RANLIB "C:/MinGW/bin/r
+set(CMAKE_RANLIB "C:/MinGW/bin/ranlib.exe")
+set(CMAKE_LINKER "C:/MinGW/bin/ld.exe")
+set(CMAKE_COMPILER_IS_G
