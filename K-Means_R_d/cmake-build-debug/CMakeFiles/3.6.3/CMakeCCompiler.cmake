@@ -62,4 +62,4 @@ endif()
 
 
 
-set(CM
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;moldname;mingwex;msvcrt;advapi3
