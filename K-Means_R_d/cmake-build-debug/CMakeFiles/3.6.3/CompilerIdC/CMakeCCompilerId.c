@@ -527,3 +527,36 @@ char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";
 #endif
 const char* info_language_dialect_default =
   "INFO" ":" "dialect_default[" C_DIALECT "]";
+
+/*--------------------------------------------------------------------------*/
+
+#ifdef ID_VOID_MAIN
+void main() {}
+#else
+# if defined(__CLASSIC_C__)
+int main(argc, argv) int argc; char *argv[];
+# else
+int main(int argc, char* argv[])
+# endif
+{
+  int require = 0;
+  require += info_compiler[argc];
+  require += info_platform[argc];
+  require += info_arch[argc];
+#ifdef COMPILER_VERSION_MAJOR
+  require += info_version[argc];
+#endif
+#ifdef SIMULATE_ID
+  require += info_simulate[argc];
+#endif
+#ifdef SIMULATE_VERSION_MAJOR
+  require += info_simulate_version[argc];
+#endif
+#if defined(__CRAYXE) || defined(__CRAYXC)
+  require += info_cray[argc];
+#endif
+  require += info_language_dialect_default[argc];
+  (void)argv;
+  return require;
+}
+#endif
