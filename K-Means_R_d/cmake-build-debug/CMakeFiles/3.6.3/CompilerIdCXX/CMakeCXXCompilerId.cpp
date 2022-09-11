@@ -101,3 +101,65 @@
 #elif defined(__DECCXX)
 # define COMPILER_ID "Compaq"
   /* __DECCXX_VER = VVRRTPPPP */
+# define COMPILER_VERSION_MAJOR DEC(__DECCXX_VER/10000000)
+# define COMPILER_VERSION_MINOR DEC(__DECCXX_VER/100000  % 100)
+# define COMPILER_VERSION_PATCH DEC(__DECCXX_VER         % 10000)
+
+#elif defined(__IBMCPP__) && defined(__COMPILER_VER__)
+# define COMPILER_ID "zOS"
+  /* __IBMCPP__ = VRP */
+# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
+
+#elif defined(__IBMCPP__) && !defined(__COMPILER_VER__) && __IBMCPP__ >= 800
+# define COMPILER_ID "XL"
+  /* __IBMCPP__ = VRP */
+# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
+
+#elif defined(__IBMCPP__) && !defined(__COMPILER_VER__) && __IBMCPP__ < 800
+# define COMPILER_ID "VisualAge"
+  /* __IBMCPP__ = VRP */
+# define COMPILER_VERSION_MAJOR DEC(__IBMCPP__/100)
+# define COMPILER_VERSION_MINOR DEC(__IBMCPP__/10 % 10)
+# define COMPILER_VERSION_PATCH DEC(__IBMCPP__    % 10)
+
+#elif defined(__PGI)
+# define COMPILER_ID "PGI"
+# define COMPILER_VERSION_MAJOR DEC(__PGIC__)
+# define COMPILER_VERSION_MINOR DEC(__PGIC_MINOR__)
+# if defined(__PGIC_PATCHLEVEL__)
+#  define COMPILER_VERSION_PATCH DEC(__PGIC_PATCHLEVEL__)
+# endif
+
+#elif defined(_CRAYC)
+# define COMPILER_ID "Cray"
+# define COMPILER_VERSION_MAJOR DEC(_RELEASE_MAJOR)
+# define COMPILER_VERSION_MINOR DEC(_RELEASE_MINOR)
+
+#elif defined(__TI_COMPILER_VERSION__)
+# define COMPILER_ID "TI"
+  /* __TI_COMPILER_VERSION__ = VVVRRRPPP */
+# define COMPILER_VERSION_MAJOR DEC(__TI_COMPILER_VERSION__/1000000)
+# define COMPILER_VERSION_MINOR DEC(__TI_COMPILER_VERSION__/1000   % 1000)
+# define COMPILER_VERSION_PATCH DEC(__TI_COMPILER_VERSION__        % 1000)
+
+#elif defined(__FUJITSU) || defined(__FCC_VERSION) || defined(__fcc_version)
+# define COMPILER_ID "Fujitsu"
+
+#elif defined(__SCO_VERSION__)
+# define COMPILER_ID "SCO"
+
+#elif defined(__clang__) && defined(__apple_build_version__)
+# define COMPILER_ID "AppleClang"
+# if defined(_MSC_VER)
+#  define SIMULATE_ID "MSVC"
+# endif
+# define COMPILER_VERSION_MAJOR DEC(__clang_major__)
+# define COMPILER_VERSION_MINOR DEC(__clang_minor__)
+# define COMPILER_VERSION_PATCH DEC(__clang_patchlevel__)
+# if defined(_MSC_VER)
+   /* _MSC_VER = VVRR */
+#  define SIMULATE_VERSION_MAJOR DEC(_MSC_VER / 100)
