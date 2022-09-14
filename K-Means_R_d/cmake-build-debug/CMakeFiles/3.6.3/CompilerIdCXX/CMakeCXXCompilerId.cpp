@@ -395,3 +395,65 @@ char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";
 #  define ARCHITECTURE_ID "x64"
 
 # elif defined(_M_IX86)
+#  define ARCHITECTURE_ID "X86"
+
+# elif defined(_M_ARM)
+#  if _M_ARM == 4
+#   define ARCHITECTURE_ID "ARMV4I"
+#  elif _M_ARM == 5
+#   define ARCHITECTURE_ID "ARMV5I"
+#  else
+#   define ARCHITECTURE_ID "ARMV" STRINGIFY(_M_ARM)
+#  endif
+
+# elif defined(_M_MIPS)
+#  define ARCHITECTURE_ID "MIPS"
+
+# elif defined(_M_SH)
+#  define ARCHITECTURE_ID "SHx"
+
+# else /* unknown architecture */
+#  define ARCHITECTURE_ID ""
+# endif
+
+#elif defined(__WATCOMC__)
+# if defined(_M_I86)
+#  define ARCHITECTURE_ID "I86"
+
+# elif defined(_M_IX86)
+#  define ARCHITECTURE_ID "X86"
+
+# else /* unknown architecture */
+#  define ARCHITECTURE_ID ""
+# endif
+
+#else
+#  define ARCHITECTURE_ID
+#endif
+
+/* Convert integer to decimal digit literals.  */
+#define DEC(n)                   \
+  ('0' + (((n) / 10000000)%10)), \
+  ('0' + (((n) / 1000000)%10)),  \
+  ('0' + (((n) / 100000)%10)),   \
+  ('0' + (((n) / 10000)%10)),    \
+  ('0' + (((n) / 1000)%10)),     \
+  ('0' + (((n) / 100)%10)),      \
+  ('0' + (((n) / 10)%10)),       \
+  ('0' +  ((n) % 10))
+
+/* Convert integer to hex digit literals.  */
+#define HEX(n)             \
+  ('0' + ((n)>>28 & 0xF)), \
+  ('0' + ((n)>>24 & 0xF)), \
+  ('0' + ((n)>>20 & 0xF)), \
+  ('0' + ((n)>>16 & 0xF)), \
+  ('0' + ((n)>>12 & 0xF)), \
+  ('0' + ((n)>>8  & 0xF)), \
+  ('0' + ((n)>>4  & 0xF)), \
+  ('0' + ((n)     & 0xF))
+
+/* Construct a string literal encoding the version number components. */
+#ifdef COMPILER_VERSION_MAJOR
+char const info_version[] = {
+  'I', 'N', 'F', 'O', ':',
