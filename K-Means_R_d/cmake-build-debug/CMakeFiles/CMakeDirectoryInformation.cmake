@@ -3,3 +3,4 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Users/Marius/Desktop/K-Means_R_d")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/Marius/Desk
