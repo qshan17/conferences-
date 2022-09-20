@@ -9,4 +9,5 @@ set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/Marius/Desktop/K-Means_R_d/cmake-bu
 set(CMAKE_FORCE_UNIX_PATHS 1)
 
 
-# The C and CXX include file r
+# The C and CXX include file regular expressions for this directory.
+set(CMAKE_C_INCLUDE_REGEX_SC
