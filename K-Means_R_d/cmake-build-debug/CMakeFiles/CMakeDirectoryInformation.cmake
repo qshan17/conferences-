@@ -5,4 +5,8 @@
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "C:/Users/Marius/Desktop/K-Means_R_d")
 set(CMAKE_RELATIVE_PATH_TOP_BINARY "C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug")
 
-# Force unix paths in de
+# Force unix paths in dependencies.
+set(CMAKE_FORCE_UNIX_PATHS 1)
+
+
+# The C and CXX include file r
