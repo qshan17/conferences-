@@ -10,4 +10,6 @@ set(CMAKE_FORCE_UNIX_PATHS 1)
 
 
 # The C and CXX include file regular expressions for this directory.
-set(CMAKE_C_INCLUDE_REGEX_SC
+set(CMAKE_C_INCLUDE_REGEX_SCAN "^.*$")
+set(CMAKE_C_INCLUDE_REGEX_COMPLAIN "^$")
+set(CM
