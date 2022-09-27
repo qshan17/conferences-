@@ -4,4 +4,9 @@
 
 #IncludeRegexComplain: ^$
 
-#IncludeRegexTransfor
+#IncludeRegexTransform: 
+
+C:/Users/Marius/Desktop/K-Means_R_d/main.c
+stdio.h
+-
+stdlib
