@@ -9,4 +9,11 @@
 C:/Users/Marius/Desktop/K-Means_R_d/main.c
 stdio.h
 -
-stdlib
+stdlib.h
+-
+time.h
+-
+string.h
+-
+utils.h
+C:/Users/Marius/Desktop/K-Means_R
