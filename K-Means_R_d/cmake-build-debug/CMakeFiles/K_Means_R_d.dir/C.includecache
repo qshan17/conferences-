@@ -23,4 +23,12 @@ utils.h
 C:/Users/Marius/Desktop/K-Means_R_d/utils.h
 math.h
 -
-std
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+C:/Users/Marius/Desktop/K-Means_R_d/utils.h
+
