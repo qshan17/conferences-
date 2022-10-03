@@ -52,3 +52,63 @@ CMAKE_BINARY_DIR = C:\Users\Marius\Desktop\K-Means_R_d\cmake-build-debug
 include CMakeFiles/K_Means_R_d.dir/depend.make
 
 # Include the progress variables for this target.
+include CMakeFiles/K_Means_R_d.dir/progress.make
+
+# Include the compile flags for this target's objects.
+include CMakeFiles/K_Means_R_d.dir/flags.make
+
+CMakeFiles/K_Means_R_d.dir/main.c.obj: CMakeFiles/K_Means_R_d.dir/flags.make
+CMakeFiles/K_Means_R_d.dir/main.c.obj: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marius\Desktop\K-Means_R_d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/K_Means_R_d.dir/main.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\K_Means_R_d.dir\main.c.obj   -c C:\Users\Marius\Desktop\K-Means_R_d\main.c
+
+CMakeFiles/K_Means_R_d.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/K_Means_R_d.dir/main.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Marius\Desktop\K-Means_R_d\main.c > CMakeFiles\K_Means_R_d.dir\main.c.i
+
+CMakeFiles/K_Means_R_d.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/K_Means_R_d.dir/main.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Marius\Desktop\K-Means_R_d\main.c -o CMakeFiles\K_Means_R_d.dir\main.c.s
+
+CMakeFiles/K_Means_R_d.dir/main.c.obj.requires:
+
+.PHONY : CMakeFiles/K_Means_R_d.dir/main.c.obj.requires
+
+CMakeFiles/K_Means_R_d.dir/main.c.obj.provides: CMakeFiles/K_Means_R_d.dir/main.c.obj.requires
+	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/main.c.obj.provides.build
+.PHONY : CMakeFiles/K_Means_R_d.dir/main.c.obj.provides
+
+CMakeFiles/K_Means_R_d.dir/main.c.obj.provides.build: CMakeFiles/K_Means_R_d.dir/main.c.obj
+
+
+CMakeFiles/K_Means_R_d.dir/utils.c.obj: CMakeFiles/K_Means_R_d.dir/flags.make
+CMakeFiles/K_Means_R_d.dir/utils.c.obj: ../utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Marius\Desktop\K-Means_R_d\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/K_Means_R_d.dir/utils.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\K_Means_R_d.dir\utils.c.obj   -c C:\Users\Marius\Desktop\K-Means_R_d\utils.c
+
+CMakeFiles/K_Means_R_d.dir/utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/K_Means_R_d.dir/utils.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Marius\Desktop\K-Means_R_d\utils.c > CMakeFiles\K_Means_R_d.dir\utils.c.i
+
+CMakeFiles/K_Means_R_d.dir/utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/K_Means_R_d.dir/utils.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Marius\Desktop\K-Means_R_d\utils.c -o CMakeFiles\K_Means_R_d.dir\utils.c.s
+
+CMakeFiles/K_Means_R_d.dir/utils.c.obj.requires:
+
+.PHONY : CMakeFiles/K_Means_R_d.dir/utils.c.obj.requires
+
+CMakeFiles/K_Means_R_d.dir/utils.c.obj.provides: CMakeFiles/K_Means_R_d.dir/utils.c.obj.requires
+	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/utils.c.obj.provides.build
+.PHONY : CMakeFiles/K_Means_R_d.dir/utils.c.obj.provides
+
+CMakeFiles/K_Means_R_d.dir/utils.c.obj.provides.build: CMakeFiles/K_Means_R_d.dir/utils.c.obj
+
+
+# Object files for target K_Means_R_d
+K_Means_R_d_OBJECTS = \
+"CMakeFiles/K_Means_R_d.dir/main.c.obj" \
+"CMakeFiles/K_Means_R_d.dir/utils.c.obj"
+
+# External object files for target K_Means_R_d
+K_Means_R_d_EXTERNAL_OBJECTS =
