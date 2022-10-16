@@ -5,4 +5,5 @@ CMakeFiles/K_Means_R_d.dir/main.c.obj: ../main.c
 CMakeFiles/K_Means_R_d.dir/main.c.obj: ../utils.h
 
 CMakeFiles/K_Means_R_d.dir/utils.c.obj: ../utils.c
-CMakeFiles/K_Means_R_d.d
+CMakeFiles/K_Means_R_d.dir/utils.c.obj: ../utils.h
+
