@@ -4,4 +4,7 @@
 # compile C with C:/MinGW/bin/gcc.exe
 C_FLAGS = -g   -std=gnu11
 
-C_D
+C_DEFINES = 
+
+C_INCLUDES = 
+
