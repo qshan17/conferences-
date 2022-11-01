@@ -4,4 +4,6 @@
 # The generator used is:
 set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 
-# The top level Makefile
+# The top level Makefile was generated from the following files:
+set(CMAKE_MAKEFILE_DEPENDS
+  "
