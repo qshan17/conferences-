@@ -20,4 +20,5 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/share/cmake-3.6/Modules/Compiler/GNU.cmake"
-  "C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/share/cmake-3.6/Modules/Platform/Win
+  "C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/share/cmake-3.6/Modules/Platform/Windows-GNU-C-ABI.cmake"
+  "C:/Program Files (x86)/JetBrains/CLio
