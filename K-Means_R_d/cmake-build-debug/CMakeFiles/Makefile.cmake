@@ -26,4 +26,4 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/share/cmake-3.6/Modules/Platform/Windows-GNU-CXX.cmake"
   "C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/share/cmake-3.6/Modules/Platform/Windows-GNU.cmake"
   "C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/share/cmake-3.6/Modules/Platform/Windows-windres.cmake"
-  "C:/Program Files (x86)/JetBrains/CLion 201
+  "C:/Program Files (x86)/JetBrains/CLion 2016.3.2/bin/cmake/share/cmake-3.6/Modules/Platform/Windows.cmake"
