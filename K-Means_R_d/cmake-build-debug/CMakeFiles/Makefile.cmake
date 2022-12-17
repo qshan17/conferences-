@@ -36,4 +36,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.6.3/CMakeSystem.cmake"
   )
 
-# The corresponding m
+# The corresponding makefile is:
+set(CMAKE_MAKEFILE_OUTPUTS
+  "Makefile"
+  "CMakeFiles/cm
