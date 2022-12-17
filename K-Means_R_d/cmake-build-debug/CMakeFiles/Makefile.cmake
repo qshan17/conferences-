@@ -39,4 +39,8 @@ set(CMAKE_MAKEFILE_DEPENDS
 # The corresponding makefile is:
 set(CMAKE_MAKEFILE_OUTPUTS
   "Makefile"
-  "CMakeFiles/cm
+  "CMakeFiles/cmake.check_cache"
+  )
+
+# Byproducts of CMake generate step:
+set(CMAKE_MAKEFILE_PROD
