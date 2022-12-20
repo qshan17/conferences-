@@ -67,3 +67,41 @@ CMakeFiles/K_Means_R_d.dir/all:
 	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/depend
 	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Marius\Desktop\K-Means_R_d\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target K_Means_R_d"
+.PHONY : CMakeFiles/K_Means_R_d.dir/all
+
+# Include target in all.
+all: CMakeFiles/K_Means_R_d.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/K_Means_R_d.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marius\Desktop\K-Means_R_d\cmake-build-debug\CMakeFiles 3
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/K_Means_R_d.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marius\Desktop\K-Means_R_d\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/K_Means_R_d.dir/rule
+
+# Convenience name for target.
+K_Means_R_d: CMakeFiles/K_Means_R_d.dir/rule
+
+.PHONY : K_Means_R_d
+
+# clean rule for target.
+CMakeFiles/K_Means_R_d.dir/clean:
+	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/clean
+.PHONY : CMakeFiles/K_Means_R_d.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/K_Means_R_d.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Special targets to cleanup operation of make.
+
+# Special rule to run CMake to check the build system integrity.
+# No rule that depends on this can have commands that come from listfiles
+# because they might be regenerated.
+cmake_check_build_system:
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+.PHONY : cmake_check_build_system

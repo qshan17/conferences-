@@ -1,0 +1,4 @@
+
+C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/CMakeFiles/K_Means_R_d.dir
+C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/CMakeFiles/rebuild_cache.dir
