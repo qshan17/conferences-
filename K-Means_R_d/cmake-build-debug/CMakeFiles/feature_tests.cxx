@@ -90,3 +90,76 @@
 "1"
 #else
 "0"
+#endif
+"cxx_decltype_incomplete_return_types\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 404 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_default_function_template_args\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 404 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_defaulted_functions\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 406 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_defaulted_move_initializers\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 407 && __cplusplus >= 201103L
+"1"
+#else
+"0"
+#endif
+"cxx_delegating_constructors\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 404 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_deleted_functions\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 409 && __cplusplus > 201103L
+"1"
+#else
+"0"
+#endif
+"cxx_digit_separators\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 406 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_enum_forward_declarations\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 405 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_explicit_conversions\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 407 && __cplusplus >= 201103L
+"1"
+#else
+"0"
+#endif
+"cxx_extended_friend_declarations\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 404 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_extern_templates\n"
+"CXX_FEATURE:"
