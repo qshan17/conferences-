@@ -219,3 +219,71 @@
 #endif
 "cxx_lambda_init_captures\n"
 "CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 405 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_local_type_template_args\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 404 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_long_long_type\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 406 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_noexcept\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 407 && __cplusplus >= 201103L
+"1"
+#else
+"0"
+#endif
+"cxx_nonstatic_member_init\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 406 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_nullptr\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 407 && __cplusplus >= 201103L
+"1"
+#else
+"0"
+#endif
+"cxx_override\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 406 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_range_for\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 405 && (__cplusplus >= 201103L || (defined(__GXX_EXPERIMENTAL_CXX0X__) && __GXX_EXPERIMENTAL_CXX0X__))
+"1"
+#else
+"0"
+#endif
+"cxx_raw_string_literals\n"
+"CXX_FEATURE:"
+#if ((__GNUC__ * 10000 + __GNUC_MINOR__ * 100 + __GNUC_PATCHLEVEL__) >= 40801) && __cplusplus >= 201103L
+"1"
+#else
+"0"
+#endif
+"cxx_reference_qualified_functions\n"
+"CXX_FEATURE:"
+#if (__GNUC__ * 100 + __GNUC_MINOR__) >= 500 && __cplusplus >= 201402L
+"1"
+#else
+"0"
+#endif
