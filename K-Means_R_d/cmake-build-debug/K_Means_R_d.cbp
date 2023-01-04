@@ -63,3 +63,39 @@
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Marius/Desktop/K-Means_R_d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Marius/Desktop/K-Means_R_d/main.c">
+			<Option target="K_Means_R_d"/>
+		</Unit>
+		<Unit filename="C:/Users/Marius/Desktop/K-Means_R_d/utils.c">
+			<Option target="K_Means_R_d"/>
+		</Unit>
+		<Unit filename="C:/Users/Marius/Desktop/K-Means_R_d/utils.h">
+			<Option target="K_Means_R_d"/>
+		</Unit>
+		<Unit filename="C:/Users/Marius/Desktop/K-Means_R_d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
