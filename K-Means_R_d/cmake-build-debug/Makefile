@@ -77,3 +77,54 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# The main all target
+all: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marius\Desktop\K-Means_R_d\cmake-build-debug\CMakeFiles C:\Users\Marius\Desktop\K-Means_R_d\cmake-build-debug\CMakeFiles\progress.marks
+	$(MAKE) -f CMakeFiles\Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Marius\Desktop\K-Means_R_d\cmake-build-debug\CMakeFiles 0
+.PHONY : all
+
+# The main clean target
+clean:
+	$(MAKE) -f CMakeFiles\Makefile2 clean
+.PHONY : clean
+
+# The main clean target
+clean/fast: clean
+
+.PHONY : clean/fast
+
+# Prepare targets for installation.
+preinstall: all
+	$(MAKE) -f CMakeFiles\Makefile2 preinstall
+.PHONY : preinstall
+
+# Prepare targets for installation.
+preinstall/fast:
+	$(MAKE) -f CMakeFiles\Makefile2 preinstall
+.PHONY : preinstall/fast
+
+# clear depends
+depend:
+	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+.PHONY : depend
+
+#=============================================================================
+# Target rules for targets named K_Means_R_d
+
+# Build rule for target.
+K_Means_R_d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 K_Means_R_d
+.PHONY : K_Means_R_d
+
+# fast build rule for target.
+K_Means_R_d/fast:
+	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/build
+.PHONY : K_Means_R_d/fast
+
+main.obj: main.c.obj
+
+.PHONY : main.obj
+
+# target to build an object file
