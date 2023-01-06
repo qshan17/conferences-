@@ -128,3 +128,64 @@ main.obj: main.c.obj
 .PHONY : main.obj
 
 # target to build an object file
+main.c.obj:
+	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/main.c.s
+.PHONY : main.c.s
+
+utils.obj: utils.c.obj
+
+.PHONY : utils.obj
+
+# target to build an object file
+utils.c.obj:
+	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/utils.c.obj
+.PHONY : utils.c.obj
+
+utils.i: utils.c.i
+
+.PHONY : utils.i
+
+# target to preprocess a source file
+utils.c.i:
+	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/utils.c.i
+.PHONY : utils.c.i
+
+utils.s: utils.c.s
+
+.PHONY : utils.s
+
+# target to generate assembly for a file
+utils.c.s:
+	$(MAKE) -f CMakeFiles\K_Means_R_d.dir\build.make CMakeFiles/K_Means_R_d.dir/utils.c.s
+.PHONY : utils.c.s
+
+# Help Target
+help:
+	@echo The following are some of the valid targets for this Makefile:
+	@echo ... all (the default if no target is provided)
+	@echo ... clean
+	@echo ... depend
+	@echo ... K_Means_R_d
+	@echo ... edit_cache
+	@echo ... rebuild_cache
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
