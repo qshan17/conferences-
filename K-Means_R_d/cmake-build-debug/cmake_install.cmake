@@ -4,4 +4,6 @@
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/K_Means_R_d")
 endif()
-string(REGEX REPLACE "/$" "" CMAKE
+string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
+
+# Set the install con
