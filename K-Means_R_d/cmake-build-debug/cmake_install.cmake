@@ -6,4 +6,6 @@ if(NOT DEFINED CMAKE_INSTALL_PREFIX)
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
-# Set the install con
+# Set the install configuration name.
+if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
+  if(B
