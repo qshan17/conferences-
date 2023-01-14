@@ -9,4 +9,6 @@ string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 # Set the install configuration name.
 if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
   if(BUILD_TYPE)
-    string(REGEX REPLACE "^[^A-Za-z0-9_
+    string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
+           CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
+  else()
