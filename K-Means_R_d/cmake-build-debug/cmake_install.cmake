@@ -14,4 +14,5 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
   else()
     set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
-  message(STATUS "Insta
+  message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
+end
