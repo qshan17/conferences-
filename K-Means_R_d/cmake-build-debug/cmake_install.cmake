@@ -15,4 +15,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
-end
+endif()
+
+# Set the component getting installed.
+if(NOT CMAKE_INST
