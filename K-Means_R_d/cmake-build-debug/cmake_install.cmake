@@ -18,4 +18,6 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
 endif()
 
 # Set the component getting installed.
-if(NOT CMAKE_INST
+if(NOT CMAKE_INSTALL_COMPONENT)
+  if(COMPONENT)
+    message(STATUS "Install
