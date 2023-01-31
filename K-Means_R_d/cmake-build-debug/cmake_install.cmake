@@ -20,4 +20,5 @@ endif()
 # Set the component getting installed.
 if(NOT CMAKE_INSTALL_COMPONENT)
   if(COMPONENT)
-    message(STATUS "Install
+    message(STATUS "Install component: \"${COMPONENT}\"")
+    set(CMAKE_INSTALL_COMPONENT "
