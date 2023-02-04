@@ -34,4 +34,5 @@ else()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${C
+       "${CMAKE_INSTALL_MANIFEST_FILES}")
+file(WRITE "C:/Users/Marius/Des
