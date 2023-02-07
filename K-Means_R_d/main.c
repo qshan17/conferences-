@@ -72,3 +72,62 @@ void get_Random_Centroids(int number_Of_Centroids,int d, struct Point* points, c
 
             printf("\n");
             fprintf(file_to_write,"\n");
+        }
+
+    }
+    printf("\n\n");
+    fclose(file_to_write);
+}
+
+void k_Means(int k,int d, char const* centroids_file, int number_of_points, struct Point* my_Points){
+
+    /*First step -> put centroid data in buffer, and set up stopping condition*/
+    int configuration_Updated, state_Counter = 0;
+    char* configuration = malloc(sizeof(char) * 255);
+    strcpy(configuration,"\0");
+    struct Point* centroids = get_Points((char *) centroids_file);
+    struct States my_States;
+
+    my_States.states = malloc(sizeof(char) * 10000);
+
+    char* temp_config = malloc(sizeof(char) * 255);
+
+    for(int i = 0 ; i < k; i++){
+        strcat(configuration,"(");
+        for(int j = 0 ; j < d; j++) {
+
+            sprintf(temp_config, " %.4f ", centroids[i].coordinates[j]);
+            temp_config[strlen(temp_config)] = '\0';
+            strcat(configuration, temp_config);
+        }
+        strcat(configuration, "); ");
+    }
+
+    my_States.states[state_Counter] = malloc(sizeof(char) * strlen(configuration));
+    strcpy(my_States.states[state_Counter],configuration);
+
+    free(temp_config);
+
+    /*Second step -> apply K-means*/
+    do{
+        printf("Current centroids : \n");
+
+        for(int i = 0 ; i < k; i++) {
+            printf("(");
+            for(int j = 0 ; j < d; j++) {
+                printf(" %.4f ", centroids[i].coordinates[j]);
+            }
+
+            printf(");\n");
+        }
+
+        struct Map *my_Map = malloc(sizeof(struct Map) * k);
+        initialize_Map(my_Map, k);
+
+        /*Assign points to each centroid*/
+        for(int i = 0 ; i <= number_of_points; i++){
+
+            if (is_Point_One_Of_Centroids(centroids, my_Points[i], k, d) == 0) {
+
+                int current = nearest_Centroid_From_Point(my_Points[i], centroids, k, d);
+                memcpy(&my_Map[current].points[my_Map[current].current_Count], &my_Points[i], sizeof(my_Points[i]));
