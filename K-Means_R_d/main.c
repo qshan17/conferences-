@@ -131,3 +131,72 @@ void k_Means(int k,int d, char const* centroids_file, int number_of_points, stru
 
                 int current = nearest_Centroid_From_Point(my_Points[i], centroids, k, d);
                 memcpy(&my_Map[current].points[my_Map[current].current_Count], &my_Points[i], sizeof(my_Points[i]));
+
+                int current_Count = my_Map[current].current_Count + 1;
+                my_Map[current].current_Count = current_Count;
+            }
+
+        }
+
+        /*Calculate center of mass for each centroid*/
+        struct Point* new_Centroids = malloc(sizeof(struct Point) * 100);
+        char* current_configuration = malloc(sizeof(char) * 255);
+        strcpy(current_configuration, "\0");
+
+        char* temp_current_config = malloc(sizeof(char) * 255);
+
+        for (int i = 0 ; i < k ; i++){
+
+            struct Point current_Center_Of_Mass = get_Centre_Of_Mass(centroids[i], my_Map[i].points,
+                                                                         my_Map[i].current_Count, d);
+
+            memcpy(&new_Centroids[i], &current_Center_Of_Mass, sizeof(current_Center_Of_Mass));
+
+            strcat(current_configuration, "(");
+
+            for (int j = 0 ; j < d; j++) {
+                sprintf(temp_current_config, " %.4f ", new_Centroids[i].coordinates[j]);
+                temp_current_config[strlen(temp_current_config)] = '\0';
+                strcat(current_configuration, temp_current_config);
+            }
+
+            strcat(current_configuration, "); ");
+        }
+
+        free(my_Map);
+        free(temp_current_config);
+
+        /*Print state and updated state*/
+
+            for (int it = 0 ; it < state_Counter; it++){
+                if(strcmp(my_States.states[it], current_configuration) == 0){
+                    configuration_Updated = 0;
+                    break;
+                }
+                configuration_Updated = 1;
+            }
+
+        printf("\nState :%s\n", configuration);
+        printf("State updated :%s\n\n", current_configuration);
+
+        /*If they differ, centroids' coordinates have been changed*/
+        if(configuration_Updated != 0){
+
+            configuration[strlen(configuration)] = '\0';
+            current_configuration[strlen(current_configuration)] = '\0';
+
+            my_States.states[++state_Counter] = malloc(sizeof(char) * strlen(current_configuration));
+            strcpy(my_States.states[state_Counter], current_configuration);
+
+            memcpy(&centroids, &new_Centroids, sizeof(new_Centroids));
+
+        }
+
+        else{
+
+            /*Write last of centroids to file*/
+            write_Last_Centroids_To_File(centroids, centroids_file, k, d);
+
+            free(centroids);
+            free(my_Points);
+        }
