@@ -200,3 +200,50 @@ void k_Means(int k,int d, char const* centroids_file, int number_of_points, stru
             free(centroids);
             free(my_Points);
         }
+
+            printf("\n");
+            free(current_configuration);
+            free(new_Centroids);
+
+        /*Free some memory, just in case*/
+        if (state_Counter == 10) {
+            for (int it = 0; it < 10; it++) {
+                free(my_States.states[it]);
+            }
+        }
+    }
+
+    while(configuration_Updated != 0);
+
+    free(configuration);
+    free(my_States.states);
+
+}
+
+int main(int argc, char const *argv[]) {
+
+  if(argc != 5){
+    printf("Not enough parameters !\n");
+  }
+
+  else{
+
+    int k = atoi(argv[2]); //number of clusters
+    int d = atoi(argv[3]); //space dimension
+    struct Point* my_Points;
+
+    int input_Points_Number;
+
+    srand((unsigned int) time(NULL)); //set up seed
+    my_Points = get_Points((char *) argv[1]);
+
+    memcpy(&input_Points_Number, &number_of_points, sizeof(input_Points_Number)); //saving the input points number
+    get_Random_Centroids(k, d, my_Points, argv[4]); //writing centroids to file
+    number_of_points = -1;//resetting the count , in order to properly stack the centroid points
+
+    k_Means(k, d, argv[4], input_Points_Number, my_Points);
+
+  }
+
+  return 0;
+}
