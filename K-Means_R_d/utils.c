@@ -7,4 +7,8 @@
 #include <stdio.h>
 #include<string.h>
 
-float euclidian_Distance(struct Point p1, 
+float euclidian_Distance(struct Point p1, struct Point p2, int dimension){
+
+    float sum = 0;
+
+    for (int i =
