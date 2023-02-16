@@ -12,4 +12,10 @@ float euclidian_Distance(struct Point p1, struct Point p2, int dimension){
     float sum = 0;
 
     for (int i = 0; i < dimension; i++) {
-        sum += pow((p2.coordinates[i] - p1.coor
+        sum += pow((p2.coordinates[i] - p1.coordinates[i]),2);
+    }
+
+    return (float) sqrt(sum);
+}
+
+/*Random alg
