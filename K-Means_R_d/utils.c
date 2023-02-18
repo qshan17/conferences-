@@ -18,4 +18,5 @@ float euclidian_Distance(struct Point p1, struct Point p2, int dimension){
     return (float) sqrt(sum);
 }
 
-/*Random alg
+/*Random algorithm for centroids configuration*/
+int get_Random(int number_Of_Poi
