@@ -24,4 +24,5 @@ int get_Random(int number_Of_Points){
     return rand() % number_Of_Points;
 }
 
-/*Assign the current point to the centroid whose distance between him
+/*Assign the current point to the centroid whose distance between him and the current point is the smallest*/
+int nearest_Centroid_From_Poi
