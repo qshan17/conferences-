@@ -25,4 +25,6 @@ int get_Random(int number_Of_Points){
 }
 
 /*Assign the current point to the centroid whose distance between him and the current point is the smallest*/
-int nearest_Centroid_From_Poi
+int nearest_Centroid_From_Point(struct Point p1, struct Point* centroids, int k, int d){
+
+    int cen
