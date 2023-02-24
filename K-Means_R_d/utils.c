@@ -31,4 +31,6 @@ int nearest_Centroid_From_Point(struct Point p1, struct Point* centroids, int k,
     float min = 1000;
 
     for (int j = 0 ; j < k; j++){
-        float current_Distance = euclidian_Dis
+        float current_Distance = euclidian_Distance(p1, centroids[j], d);
+
+        if (min > current_Dista
