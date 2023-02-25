@@ -36,4 +36,12 @@ int nearest_Centroid_From_Point(struct Point p1, struct Point* centroids, int k,
         if (min > current_Distance){
 
             min = current_Distance;
-            centro
+            centroid = j;
+        }
+    }
+
+    return centroid;
+
+}
+
+/
