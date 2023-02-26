@@ -44,4 +44,4 @@ int nearest_Centroid_From_Point(struct Point p1, struct Point* centroids, int k,
 
 }
 
-/
+/*Calculate center of mass between centroid and all points assigned to it
