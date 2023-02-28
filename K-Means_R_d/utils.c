@@ -47,4 +47,7 @@ int nearest_Centroid_From_Point(struct Point p1, struct Point* centroids, int k,
 /*Calculate center of mass between centroid and all points assigned to it*/
 struct Point get_Centre_Of_Mass(struct Point centroid, struct Point* points, int length, int d){
 
-    struct Point my_
+    struct Point my_Point;
+    float s = 0;
+
+    my_Point.coordinates = malloc(sizeof(floa
