@@ -50,4 +50,7 @@ struct Point get_Centre_Of_Mass(struct Point centroid, struct Point* points, int
     struct Point my_Point;
     float s = 0;
 
-    my_Point.coordinates = malloc(sizeof(floa
+    my_Point.coordinates = malloc(sizeof(float) *d);
+
+    if(length == 0){
+        return centroid;
