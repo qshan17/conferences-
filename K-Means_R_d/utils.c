@@ -54,3 +54,7 @@ struct Point get_Centre_Of_Mass(struct Point centroid, struct Point* points, int
 
     if(length == 0){
         return centroid;
+    }
+
+    for (int i = 0 ; i < length; i++) {
+        for(int j =
