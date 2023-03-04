@@ -64,4 +64,8 @@ struct Point get_Centre_Of_Mass(struct Point centroid, struct Point* points, int
         for(int i = 0 ; i < length; i++){
             s += points[i].coordinates[j];
         }
-        my_Point.coord
+        my_Point.coordinates[j] = s / length;
+        s = 0;
+    }
+
+    return my_Point;
