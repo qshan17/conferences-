@@ -69,3 +69,6 @@ struct Point get_Centre_Of_Mass(struct Point centroid, struct Point* points, int
     }
 
     return my_Point;
+}
+
+/*Writing the last state (centroids) to output file*
