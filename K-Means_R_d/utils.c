@@ -74,4 +74,6 @@ struct Point get_Centre_Of_Mass(struct Point centroid, struct Point* points, int
 /*Writing the last state (centroids) to output file*/
 void write_Last_Centroids_To_File(struct Point* centroids, const char* path, int number_Of_Centroids, int d){
 
-    
+    FILE *file_to_write = fopen(path, "w");
+
+    if(file_to_w
