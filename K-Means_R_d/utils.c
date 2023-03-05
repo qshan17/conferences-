@@ -71,4 +71,5 @@ struct Point get_Centre_Of_Mass(struct Point centroid, struct Point* points, int
     return my_Point;
 }
 
-/*Writing the last state (centroids) to output file*
+/*Writing the last state (centroids) to output file*/
+void write_Last_Centroids_To_File(struct Point* centroids,
