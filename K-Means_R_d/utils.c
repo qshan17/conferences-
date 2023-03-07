@@ -77,4 +77,6 @@ void write_Last_Centroids_To_File(struct Point* centroids, const char* path, int
     FILE *file_to_write = fopen(path, "w");
 
     if(file_to_write == NULL){
-        printf("Error opening centroids f
+        printf("Error opening centroids file (last centroids)!\n");
+        exit(1);
+  
