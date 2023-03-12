@@ -86,4 +86,6 @@ void write_Last_Centroids_To_File(struct Point* centroids, const char* path, int
         for(int i = 0 ; i < number_Of_Centroids; i++){
 
             for(int j = 0 ; j < d; j++) {
-     
+                fprintf(file_to_write, "%.4f", centroids[i].coordinates[j]);
+
+        
