@@ -89,4 +89,8 @@ void write_Last_Centroids_To_File(struct Point* centroids, const char* path, int
                 fprintf(file_to_write, "%.4f", centroids[i].coordinates[j]);
 
                 if(j != d -1){
-                    fprintf(file_to_wr
+                    fprintf(file_to_write,",");
+                }
+            }
+
+            fprintf(file
