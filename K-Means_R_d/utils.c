@@ -93,4 +93,12 @@ void write_Last_Centroids_To_File(struct Point* centroids, const char* path, int
                 }
             }
 
-            fprintf(file
+            fprintf(file_to_write,"\n");
+        }
+
+    }
+
+    fclose(file_to_write);
+}
+
+/*Parse
