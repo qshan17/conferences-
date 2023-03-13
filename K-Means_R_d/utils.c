@@ -101,4 +101,5 @@ void write_Last_Centroids_To_File(struct Point* centroids, const char* path, int
     fclose(file_to_write);
 }
 
-/*Parse
+/*Parse line into coordinates for current Point*/
+struct Point get_Point_
