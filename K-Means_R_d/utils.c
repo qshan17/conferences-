@@ -105,4 +105,7 @@ void write_Last_Centroids_To_File(struct Point* centroids, const char* path, int
 struct Point get_Point_From_Line(char line[256]){
 
     char* token;
-    floa
+    float current;
+    short int i = -1;
+
+    struct Poin
