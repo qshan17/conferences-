@@ -108,4 +108,5 @@ struct Point get_Point_From_Line(char line[256]){
     float current;
     short int i = -1;
 
-    struct Poin
+    struct Point m_Point;
+    m_Point.coordinates = malloc(sizeof(float) * 100); //maximum
