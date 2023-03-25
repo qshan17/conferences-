@@ -111,4 +111,9 @@ struct Point get_Point_From_Line(char line[256]){
     struct Point m_Point;
     m_Point.coordinates = malloc(sizeof(float) * 100); //maximum d - dimension : 100, convention
 
-    token = strtok (li
+    token = strtok (line, ",");
+
+    while (token != NULL){
+
+        i++;
+    
