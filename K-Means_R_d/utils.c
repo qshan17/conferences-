@@ -117,4 +117,9 @@ struct Point get_Point_From_Line(char line[256]){
 
         i++;
         sscanf (token, "%f", &current);
-        m_Point.coordinates[i] = current
+        m_Point.coordinates[i] = current;
+
+        token = strtok (NULL, ",");
+    }
+
+    return m
