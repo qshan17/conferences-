@@ -122,4 +122,7 @@ struct Point get_Point_From_Line(char line[256]){
         token = strtok (NULL, ",");
     }
 
-    return m
+    return m_Point;
+}
+
+/*We want to assign to a centroid, only points which are no
