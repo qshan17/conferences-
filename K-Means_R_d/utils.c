@@ -125,4 +125,5 @@ struct Point get_Point_From_Line(char line[256]){
     return m_Point;
 }
 
-/*We want to assign to a centroid, only points which are no
+/*We want to assign to a centroid, only points which are not the centroids themselves.*/
+short int is_Point_One_Of_Cen
