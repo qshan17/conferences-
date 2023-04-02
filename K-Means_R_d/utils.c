@@ -130,4 +130,6 @@ short int is_Point_One_Of_Centroids(struct Point *centroids, struct Point point,
 
     int counter = 0;
 
-    for(int i = 0 ; i < 
+    for(int i = 0 ; i < c_Length; i++){
+        for(int j = 0 ; j < d; j++)
+   
