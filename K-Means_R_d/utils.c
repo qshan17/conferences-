@@ -138,4 +138,10 @@ short int is_Point_One_Of_Centroids(struct Point *centroids, struct Point point,
         if(counter == d){
             return 1;
         }
-        counter = 
+        counter = 0;
+    }
+
+    return 0;
+}
+
+/*Set up map structure*
