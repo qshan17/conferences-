@@ -135,4 +135,7 @@ short int is_Point_One_Of_Centroids(struct Point *centroids, struct Point point,
             if(centroids[i].coordinates[j] == point.coordinates[j]) {
                 counter++;
             }
-     
+        if(counter == d){
+            return 1;
+        }
+        counter = 
