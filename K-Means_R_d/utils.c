@@ -144,4 +144,5 @@ short int is_Point_One_Of_Centroids(struct Point *centroids, struct Point point,
     return 0;
 }
 
-/*Set up map structure*
+/*Set up map structure*/
+void initialize_Map(struct Map* map, int number_Of_Centroi
