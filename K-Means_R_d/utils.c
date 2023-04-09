@@ -145,4 +145,7 @@ short int is_Point_One_Of_Centroids(struct Point *centroids, struct Point point,
 }
 
 /*Set up map structure*/
-void initialize_Map(struct Map* map, int number_Of_Centroi
+void initialize_Map(struct Map* map, int number_Of_Centroids){
+
+    for(int i = 0 ; i < number_Of_Centroids ; i++){
+    
