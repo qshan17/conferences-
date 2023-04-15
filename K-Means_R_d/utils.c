@@ -148,4 +148,6 @@ short int is_Point_One_Of_Centroids(struct Point *centroids, struct Point point,
 void initialize_Map(struct Map* map, int number_Of_Centroids){
 
     for(int i = 0 ; i < number_Of_Centroids ; i++){
-    
+        map[i].current_Count = 0;
+    }
+}
